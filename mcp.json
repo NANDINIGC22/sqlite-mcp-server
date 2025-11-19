@@ -1,0 +1,17 @@
+{
+    "name": "sqlite-dynamic-mcp",
+    "version": "1.0.0",
+    "entry": "python server.py",
+    "permissions": {
+      "fs": {
+        "allowed_paths": [
+          "C:/"
+        ]
+      }
+    },
+    "dependencies": [
+      "mcp[server]",
+      "fastmcp"
+    ]
+  }
+  
